@@ -1,0 +1,15 @@
+<script>
+
+setTimeout(function() {
+
+	if (ka_extensions) {
+		alert = function(msg) {
+			ka_extensions.showMessage(msg, 'W');
+		}
+	}
+
+}, 1000);
+
+</script>
+
+{{ parent() }}

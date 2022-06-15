@@ -1,0 +1,8 @@
+<kapatch version="1.0">
+	<changes>
+		<operation type="replace">
+			<search>formaction="{{ delete }}"</search>
+			<text>form="form-product" formaction="{{ delete }}"</text>
+		</operation>
+	</changes>
+</kapatch>
